@@ -378,6 +378,8 @@ if st.button('RANDOM'):
 		st.write(f"{z[9]}")
 
 st.sidebar.write("Data source:https://www.1112.com")
+st.sidebar.write("Coder:tun thunchawin")
+
 
 
 
