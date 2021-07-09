@@ -377,6 +377,7 @@ if st.button('RANDOM'):
 		st.image(f"{z[9]}.png", use_column_width=True)
 		st.write(f"{z[9]}")
 
+st.sidebar.write("Data source:https://www.1112.com")
 
 
 
