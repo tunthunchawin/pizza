@@ -16,7 +16,7 @@ import streamlit as st
 
 @st.cache(allow_output_mutation=True)
 def load_data():
-	df = pd.read_csv("C:/Users/Admin/oneapp_demo/pizza_data.csv")
+	df = pd.read_csv("https://github.com/tunthunchawin/pizza/blob/main/pizza_data.csv")
 	return df
 
 st.set_page_config(layout='wide')
