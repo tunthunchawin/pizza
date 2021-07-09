@@ -338,7 +338,7 @@ if st.button('RANDOM'):
 
 	ingred2 =df[df['fullname']==pick2].ingredients.tolist()
 
-	st.selectbox(f'Ingredients of {pick2}',ingred)
+	st.selectbox(f'Ingredients of {pick2}',ingred2)
 	st.write('**We recommend these!!!** :sunglasses:')
 
 
