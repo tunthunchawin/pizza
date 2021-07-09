@@ -269,7 +269,7 @@ get_recommendations('Shrimp Cocktail PIZZA')
 
 
 
-st.title('***Let we help you find out the least similarity of the pizza taste***')
+st.title('***Let we help you find out the least similarity of pizza taste***')
 
 pick1 = st.selectbox('Pick one',df.fullname.tolist())
 
@@ -283,7 +283,7 @@ ingred =df[df['fullname']==pick1].ingredients.tolist()
 
 st.selectbox(f'Ingredients of {pick1}',ingred)
 
-st.write('**We recoomend these!!! :sunglasses:**')
+st.write('**We recommend these!!! :sunglasses:**')
 st.table(pd.DataFrame(get_recommendations(f'{pick1}')).reset_index().drop(columns=['index']))
 
 x = pd.DataFrame(get_recommendations(f'{pick1}')).reset_index().drop(columns=['index'])
@@ -339,7 +339,7 @@ if st.button('RANDOM'):
 	ingred2 =df[df['fullname']==pick2].ingredients.tolist()
 
 	st.selectbox(f'Ingredients of {pick2}',ingred)
-	st.write('**We recoomend these!!!** :sunglasses:')
+	st.write('**We recommend these!!!** :sunglasses:')
 
 
 
